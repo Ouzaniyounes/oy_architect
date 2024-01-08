@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/verdana');
+
+body {
+    margin: 0px;
+    font-family: 'Verdana', sans-serif;
+}
+main {
+    width: 100%;
+}
+section {
+    width: 100%;
+}
+nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    margin-top: 10px;
+}
+#ul-link-right  { 
+    width: 300px;
+    display: flex;
+    margin: 0 120px;
+    justify-content: space-between;
+    
+}
+a {
+    color: inherit;
+    text-decoration:none ;
+}
+li  {
+    padding: 20px;
+    list-style:none;
+    letter-spacing: 4px;
+    color: rgb(0, 0, 0);
+}
+li:hover {
+    background-color: rgba(147, 203, 62, 0.64);
+    opacity: 0.5;
+}
+b {
+    font-weight: 900;
+}
+#header-back-img {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+.img-container {
+    height: 100vh;
+}
+.h1-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Oy-container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.729);
+}
+h1 {
+
+    color: white; 
+    position: absolute;
+    font-size: 3em;
+    font-weight: 400;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+h2 {
+    margin-left: 2%;
+    font-weight: 300;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+h3 {
+    font-size: 24px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+hr {
+    width: 96.5%;
+    margin-left: 2%;
+    color: rgba(255, 251, 251, 0.918);
+    opacity: 0.3;
+}
+.project-card-container {
+    width: 100%;
+
+}
+ .project-card-img {
+    width: calc(90% / 4);
+    margin: 2% 0 0% 2%;
+    display: inline-block;
+    position: relative;
+} 
+.project-card-img img {
+    height: 100%;
+    width: 100%;
+} 
+.project-card-p {
+    margin: 0;
+    padding: 5px;
+    font-size: 1.25em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+}
+#about-p {
+    margin: 2%;
+}
+.worker-card-container {
+    width: 100%;
+}
+.worker-card {
+    display: inline-block;
+    width: calc(90% / 4);
+    margin: 2% 0 0% 2%;
+}
+.worker-card img {
+    height: 500px;
+    width: 100%;
+}
+.worker-state {
+    color: grey;
+}
+.worker-card button {
+    height: 50px;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    font-family: 'Verdana', sans-serif;
+}
+.all-button {
+    font-size: 16px;
+}
+.all-button:hover {
+    background-color: #dfdddd;
+    display: inline-block;
+}
+form {
+    width: 100%;
+}
+.input-element {
+    width: 100%;
+    font-size: 1rem;
+}
+.input-element input {
+    margin: 5px 2% 5px 2%;
+    width: 96%;
+    height: 40px;
+}
+.input-submit {
+    margin: 5px 2% 5px 2%;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.input-submit:hover {
+    background-color: lightgray;
+    color: black;
+}
+footer {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    background-color: rgba(119, 167, 47, 0.64);
+    color: rgb(17, 17, 17);
+    text-align: center;
+}
